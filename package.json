@@ -1,0 +1,15 @@
+{
+  "name": "botcamp",
+  "version": "1.0.0",
+  "description": "Projeto do Botcamp da Impulso Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netoalves91/botcamp.git"
+  },
+  "author": "Claudemiro Neto",
+  "license": "MPL-2.0"
+}
