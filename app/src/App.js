@@ -1,15 +1,17 @@
 import React, { Component } from "react";
-import BtnBotcamp from "./components/BtnBotcamp";
+import "./styles/reset.css";
+
 import LogoBotcamp from "./components/LogoBotcamp";
-import "./reset.css";
+import BtnBotcamp from "./components/BtnBotcamp";
+
 
 class App extends Component {
   render() {
     return(
-      <div>
-       <LogoBotcamp/>
-       <BtnBotcamp/>
-      </div>
+      <>
+        <LogoBotcamp/>
+        <BtnBotcamp/>
+      </>
     )
   }
 };
