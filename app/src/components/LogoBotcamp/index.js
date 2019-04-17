@@ -1,10 +1,12 @@
-import React from "react";
+import logobotcamp from "../../images/botcamp.svg";
 
-import logosBotcamp from "../../images/botcamp.svg"
-import "./style.css";
+import styled from "styled-components";
 
-const LogoBotcamp = () => (
-  <img className="logo-botcamp" src={logosBotcamp} alt="Logo Botcamp"/>
-);
+const LogoBotcamp = styled.img.attrs(props => ({
+  src: logobotcamp,
+  alt: 'Logo Botcamp'
+}))`
+  width: 248px;
+`;
 
 export default LogoBotcamp;
