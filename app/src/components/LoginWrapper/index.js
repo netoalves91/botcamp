@@ -6,9 +6,12 @@ const LoginWrapper = styled.main`
   background: url(${background});
   width: 100vw;
   height: 100vh;
+  box-sizing: border-box;
+  padding-top: 120px;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 `;
 
