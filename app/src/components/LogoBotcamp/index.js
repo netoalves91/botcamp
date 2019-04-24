@@ -1,4 +1,4 @@
-import logobotcamp from "../../images/botcamp.svg";
+import logobotcamp from "../../images/botcamp.png";
 
 import styled from "styled-components";
 
