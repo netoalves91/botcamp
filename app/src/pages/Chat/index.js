@@ -1,6 +1,6 @@
 import React from "react";
 
-import ChatWrapper from "../../components/ChatWrapper";
+import HeaderWrapper from "../../components/HeaderWrapper";
 
 import LogoBotcamp from "../../components/LogoBotcamp";
 
@@ -8,10 +8,10 @@ import ChatLogout from "../../components/ChatLogout";
 
 
 const Chat = () => (
-  <ChatWrapper>
+  <HeaderWrapper>
     <LogoBotcamp chat/>
     <ChatLogout/>
-  </ChatWrapper>
+  </HeaderWrapper>
 )
 
 export default Chat;
